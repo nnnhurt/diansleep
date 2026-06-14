@@ -1,0 +1,13 @@
+1. Создаешь папку
+2. Открыть VS Code
+3. git clone https://github.com/nnnhurt/diansleep .
+3. Скопируй .env.example в .env (создай в корне)
+4. python3 -m venv .venv
+5. source .venv/bin/activate
+6. pip install -r requirements.txt
+7. Правишь модели для себя, под задание, удаляешь прошлую миграцию 0001_initial.py
+8.python3 manage.py makemigrations
+9. python3 manage.py migrate
+10. python3 manage.py runserver
+11. python3 manage.py collectstatic
+12. python3 manage.py createsuperuser
